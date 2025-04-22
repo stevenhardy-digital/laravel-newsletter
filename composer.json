@@ -8,9 +8,6 @@
             "email": "steven@add-digital.co.uk"
         }
     ],
-    "require": {
-        "krayin/laravel-core": "^1.0 || dev-main"
-    },
     "autoload": {
         "psr-4": {
             "Webkul\\Newsletter\\": "src/"
@@ -24,6 +21,5 @@
             "aliases": {}
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
