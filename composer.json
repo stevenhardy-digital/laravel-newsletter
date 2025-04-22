@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "krayin/laravel-core": "^1.0"
+        "krayin/laravel-core": "^1.0 || dev-main"
     },
     "autoload": {
         "psr-4": {
