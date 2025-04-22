@@ -1,0 +1,29 @@
+{
+    "name": "stevenhardy-digital/laravel-newsletter",
+    "description": "Krayin Newsletter Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steven Hardy",
+            "email": "steven@add-digital.co.uk"
+        }
+    ],
+    "require": {
+        "krayin/laravel-core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Newsletter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Newsletter\\Providers\\NewsletterServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
